@@ -2,7 +2,7 @@ import
 {Model,DataTypes,HasManyAddAssociationMixin,HasManyGetAssociationsMixin,Association,
   HasManyCreateAssociationMixin,HasManyHasAssociationMixin,HasManyCountAssociationsMixin,} 
 from 'sequelize';
-import sequelize from '../configs/connection';
+import sequelize from '../../configs/connection';
 import Time from './TimeModel'
 // These are all the attributes in the User model
 interface ProjectInferface {

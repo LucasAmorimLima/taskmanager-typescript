@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from "express";
-import {DecodeResult,ExpirationStatus,Session} from '../services/interfaces'
-import {decodeSession} from '../services/decodeJWT'
-import {encodeSession} from '../services/generateJWT'
-import {checkExpirationStatus} from '../services/sessionExpired'
+import {DecodeResult,ExpirationStatus,Session} from '../api/services/interfaces'
+import {decodeSession} from '../api/services/decodeJWT'
+import {encodeSession} from '../api/services/generateJWT'
+import {checkExpirationStatus} from '../api/services/sessionExpired'
 
 
 export function authMiddleware(req: Request, res: Response, next: NextFunction) {

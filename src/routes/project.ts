@@ -1,5 +1,5 @@
 import {Router} from 'express'
-import ProjectController from '../controllers/ProjectController'
+import ProjectController from '../api/controllers/ProjectController'
 import { joiMiddleware } from './joiMidlleware'
 import {authMiddleware} from './jwtMidlleware'
 const routes = Router()

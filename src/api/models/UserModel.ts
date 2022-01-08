@@ -1,5 +1,5 @@
 import {Model,DataTypes} from 'sequelize';
-import sequelize from '../configs/connection';
+import sequelize from '../../configs/connection';
 // These are all the attributes in the User model
 interface UserInferface {
     id?: number;

@@ -1,5 +1,5 @@
 import {Router} from 'express'
-import UserController from '../controllers/UserController'
+import UserController from '../api/controllers/UserController'
 import { joiMiddleware } from './joiMidlleware'
 import { authMiddleware } from './jwtMidlleware'
 
