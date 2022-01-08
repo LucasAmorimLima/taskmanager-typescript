@@ -1,5 +1,5 @@
 import {Router} from 'express'
-import TimeController from '../controllers/TimeController'
+import TimeController from '../api/controllers/TimeController'
 import { joiMiddleware } from './joiMidlleware'
 import { authMiddleware } from './jwtMidlleware'
 

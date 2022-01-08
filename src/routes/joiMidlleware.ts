@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 import _ from 'lodash';
-import {usersSchema,loginSchema,projectSchema,timerSchema} from '../services/Schemas'
+import {usersSchema,loginSchema,projectSchema,timerSchema} from '../api/services/Schemas'
 import {Schema} from 'joi'
 const Schema = {
     '/authentication' : loginSchema,
